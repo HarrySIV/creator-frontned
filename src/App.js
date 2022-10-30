@@ -1,8 +1,4 @@
-import {
-  Route,
-  BrowserRouter as Router,
-  Routes,
-} from 'react-router-dom';
+import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 
 import About from './pages/About.js';
 import Blog from './pages/Blog/Blog.js';
@@ -12,13 +8,11 @@ import Error from './pages/Error.js';
 
 import MainNavigation from './shared/components/Navigation/MainNavigation';
 
-
 import './App.css';
-import Title from './pages/Title.js';
+import Title from './shared/components/Header/Title';
 import BlogPost from './pages/Blog/Blog_Post.js';
 
 function App() {
-
   let routes;
   routes = (
     <Routes>

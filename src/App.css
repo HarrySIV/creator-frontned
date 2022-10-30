@@ -1,7 +1,11 @@
 .website {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
   margin: auto;
   text-align: center;
-  width: 1000px;
+  max-width: 1000px;
+  min-width: fit-content;
 }
 
 .App-header {
