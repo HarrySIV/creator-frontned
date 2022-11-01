@@ -6,7 +6,7 @@ import Works from './pages/Works/Works.js';
 import Login from './pages/Login.js';
 import Error from './pages/Error.js';
 
-import MainNavigation from './shared/components/Navigation/MainNavigation';
+import MainNavigation from './shared/components/Header/Navigation/MainNavigation';
 
 import './App.css';
 import Title from './shared/components/Header/Title';
